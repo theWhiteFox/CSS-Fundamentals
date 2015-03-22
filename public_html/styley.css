@@ -32,20 +32,16 @@ h3{font-size: 1.3em;font-variant: small-caps;text-align: justify;text-indent: 1%
        );}
 body{font-family: 'Droid Sans', sans-serif;
      background-color: #FCF4DC;
-     background-image: -webkit-gradient(linear, 0 0, 0 100%, color-stop(.5, rgba(234, 227, 203, .2)), color-stop(.5, transparent), to(transparent));
-     background-image: -moz-linear-gradient(rgba(234, 227, 203, .2) 50%, transparent 50%, transparent);
-     background-image: -o-linear-gradient(rgba(234, 227, 203, .2) 50%, transparent 50%, transparent);
-     background-image: linear-gradient(rgba(234, 227, 203, .2) 50%, transparent 50%, transparent);
-     -webkit-background-size: 15px 15px;
-     -moz-background-size: 15px 15px;
-     background-size: 15px 15px;
+/*background http://lea.verou.me/css3patterns/*/
+background: radial-gradient(circle at 0% 50%, rgba(96, 16, 48, 0) 9px, #3C827A 10px, rgba(96, 16, 48, 0) 11px) 0px 10px, radial-gradient(at 100% 100%,     rgba(96, 16, 48, 0) 9px, #3C827A 10px, rgba(96, 16, 48, 0) 11px), #2B575A;
+background-size: 20px 20px;
 }
 p{line-height: 1.9; font-size: 1em;}
 main {
     width: -moz-fit-content;
     width: -webkit-fit-content;
     width: fit-content;
-    margin: 1em auto;  
+    margin: 1% auto;  
     text-align: center;background-color:#EAE3CB;border: #475B62 1px dotted;
     padding:1em;}
 main p {color: red;}
