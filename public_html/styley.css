@@ -21,22 +21,37 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
   green          : #738A05; */
 
 h1,h2,h3{font-family: 'Roboto', sans-serif;line-height: 2;}
-h1{font-size: 1.9em;text-transform: uppercase;letter-spacing: .2em}
+h1{font-size: 1.9em;letter-spacing: .1em;background-color:#819090;color:#EAE3CB;}
 h2{font-size: 1.6em;}
-h3{font-size: 1.3em;font-variant: small-caps;text-align: justify;text-indent: 1%;}
-body{font-family: 'Droid Sans', sans-serif;}
+h3{font-size: 1.3em;font-variant: small-caps;text-align: justify;text-indent: 1%;background: repeating-linear-gradient(
+       45deg,
+       rgba(0, 0, 0, 0.2),
+       rgba(0, 0, 0, 0.2) 10px,
+       rgba(0, 0, 0, 0.1) 10px,
+       rgba(0, 0, 0, 0.1) 20px
+       );}
+body{font-family: 'Droid Sans', sans-serif;
+     background-color: #FCF4DC;
+     background-image: -webkit-gradient(linear, 0 0, 0 100%, color-stop(.5, rgba(234, 227, 203, .2)), color-stop(.5, transparent), to(transparent));
+     background-image: -moz-linear-gradient(rgba(234, 227, 203, .2) 50%, transparent 50%, transparent);
+     background-image: -o-linear-gradient(rgba(234, 227, 203, .2) 50%, transparent 50%, transparent);
+     background-image: linear-gradient(rgba(234, 227, 203, .2) 50%, transparent 50%, transparent);
+     -webkit-background-size: 15px 15px;
+     -moz-background-size: 15px 15px;
+     background-size: 15px 15px;
+}
 p{line-height: 1.9; font-size: 1em;}
 main {
-	width: -moz-fit-content;
+    width: -moz-fit-content;
     width: -webkit-fit-content;
     width: fit-content;
     margin: 1em auto;  
     text-align: center;background-color:#EAE3CB;border: #475B62 1px dotted;
-padding:1em;}
+    padding:1em;}
 main p {color: red;}
 /*desendent selector*/
 main p span {color: gray;font-weight: bold;}
-a{display:block;line-height: 2;text-indent: 1.4%;text-align: justify;font-size: 1em;}
+a{display:block;line-height: 2;text-indent: 1.4%;text-align: justify;font-size: 1em;color:#2176C7;}
 
 
 
