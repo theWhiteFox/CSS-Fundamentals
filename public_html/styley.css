@@ -20,34 +20,65 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
   cyan           : #259286;
   green          : #738A05; */
 
+header {
+	height: 50px;	
+	background-color: #819090;
+}
+
 h1,h2,h3{font-family: 'Roboto', sans-serif;line-height: 2;}
 h1{font-size: 1.9em;letter-spacing: .1em;background-color:#819090;color:#EAE3CB;}
 h2{font-size: 1.6em;}
-h3{font-size: 1.3em;font-variant: small-caps;text-align: justify;text-indent: 1%;background: repeating-linear-gradient(
+h3{padding:1%;font-weight: bold; font-size: 1.3em;font-variant: small-caps;text-align: justify;text-indent: 1%;background: repeating-linear-gradient(
        45deg,
-       rgba(0, 0, 0, 0.2),
-       rgba(0, 0, 0, 0.2) 10px,
-       rgba(0, 0, 0, 0.1) 10px,
-       rgba(0, 0, 0, 0.1) 20px
+       rgba(0, 0, 0, 0.1),
+       rgba(0, 0, 0, 0.1) 20px,
+       rgba(0, 0, 0, 0.2) 20px,
+       rgba(0, 0, 0, 0.2) 60px
        );}
-body{font-family: 'Droid Sans', sans-serif;
+body{
+	width:80%;
+	margin: 0 auto;
+
+	font-family: 'Droid Sans', sans-serif;
      background-color: #FCF4DC;
 /*background http://lea.verou.me/css3patterns/*/
 background: radial-gradient(circle at 0% 50%, rgba(96, 16, 48, 0) 9px, #3C827A 10px, rgba(96, 16, 48, 0) 11px) 0px 10px, radial-gradient(at 100% 100%,     rgba(96, 16, 48, 0) 9px, #3C827A 10px, rgba(96, 16, 48, 0) 11px), #2B575A;
 background-size: 20px 20px;
 }
 p{line-height: 1.9; font-size: 1em;}
-main {
+article {
     width: -moz-fit-content;
     width: -webkit-fit-content;
     width: fit-content;
-    margin: 1% auto;  
+    margin: 0 auto;  
     text-align: center;background-color:#EAE3CB;border: #475B62 1px dotted;
-    padding:1em;}
-main p {color: red;}
+    padding:1em;
+    float: left;
+	width: 60%;
+}
+article p {color: red;}
 /*desendent selector*/
-main p span {color: gray;font-weight: bold;}
+article p span {color: gray;font-weight: bold;}
 a{display:block;line-height: 2;text-indent: 1.4%;text-align: justify;font-size: 1em;color:#2176C7;}
+nav a{
+	position: relative;	    
+    text-align: center;
+    background-color:#EAE3CB;
+    text-align: center;
+}
+aside{
+	float: right;
+	width:20%;
+	background-color: #EAE3CB;
+}
+footer{
+	position: relative;	    
+    text-align: center;
+    background-color:#EAE3CB;
+    text-align: center;
+    clear: both;
+}
+
 
 
 
