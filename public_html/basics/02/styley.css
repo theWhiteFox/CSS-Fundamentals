@@ -2,15 +2,37 @@
 
 body {
     font-family: 'Droid Sans', sans-serif;
-    color: gray;
+    font-size: 90%;
 }
 
-h1,
-h2,
-h3 {
-    color: black;
+aside,
+article,
+section,
+header,
+footer,
+nav {
+    display: block;
 }
 
-div h2 {
-    color: blue;
+aside {
+    width: 300px;
+    border: 1px solid #000;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8em;
+    font-weight: nomal;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4em;
+    font-weight: nomal;
+}
+
+p {
+	font-size: 1em;
+	color: blue;
 }
