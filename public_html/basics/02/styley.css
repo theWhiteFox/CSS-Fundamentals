@@ -33,6 +33,17 @@ h2 {
 }
 
 p {
-	font-size: 1em;
-	color: blue;
+    font-size: 1em;
+    color: blue;
 }
+
+.aside1 {
+    border: 1px solid green;
+    background-color: beige;
+}
+
+.aside2 {
+    border: 1px solid yellow;
+    background-color: tan;
+}
+
