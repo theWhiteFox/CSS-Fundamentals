@@ -1,15 +1,24 @@
 <!doctype html>
 <!-- @ Stephen O'Connor -->
 <html>
-    <head>
-        <title>Using Embedded Styles</title>
-        <style type="text/css" media="screen">
-        	@import url("styley.css");
-        </style>        
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <div>TODO write content</div>
-    </body>
+
+<head>
+    <title>Using Embedded Styles</title>
+    <!-- not best practice using @import -->
+    <link rel="stylesheet" type="text/css" href="styley.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <h1>This is testing CSS Specificity</h1>
+    <p>This is testing CSS SpecificityThis is testing CSS Specificity</p>
+    <h2>This is testing CSS Specificity</h2>
+    <div>
+        <h2>This is testing CSS Specificity on this h2</h2>
+        <p>This is testing CSS Specificity</p>
+        <p>This is testing CSS Specificity</p>
+    </div>
+</body>
+
 </html>
