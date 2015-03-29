@@ -1,4 +1,14 @@
 /* Stephen, 23-Mar-2015, 16:56:20 */
+@font-face {
+    font-family: 'geosanslight-nmsregular';
+    src: url('http://www.no-mans-sky.com/elk/wp-content/themes/nomanssky/fonts/geonms-webfont.eot');
+    src: url('http://www.no-mans-sky.com/elk/wp-content/themes/nomanssky/fonts/geonms-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://www.no-mans-sky.com/elk/wp-content/themes/nomanssky/fonts/geonms-webfont.woff') format('woff'),
+         url('http://www.no-mans-sky.com/elk/wp-content/themes/nomanssky/fonts/geonms-webfont.ttf') format('truetype'),
+         url('http://www.no-mans-sky.com/elk/wp-content/themes/nomanssky/fonts/geonms-webfont.svg#geosanslight-nmsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
 body {
     font-family: 'Droid Sans', sans-serif;
@@ -21,13 +31,13 @@ aside {
 }
 
 h1 {
-    font-family: 'Roboto', sans-serif;
+    font-family: ExistenceLight;
     font-size: 1.8em;
     font-weight: nomal;
 }
 
 h2 {
-    font-family: 'Roboto', sans-serif;
+    font-family: geosanslight-nmsregular;
     font-size: 1.4em;
     font-weight: nomal;
 }
@@ -47,3 +57,30 @@ p {
     background-color: tan;
 }
 
+.artist {
+    font-weight: bold;
+    font-style: italic;
+    color: navy;
+}
+
+#pageHeader{
+	background-color: gray;
+	color:white;
+	padding:15px;
+}
+
+#featureArtist{
+	background-color: tan;
+	padding:15px;
+	width:300px;
+
+}
+.date {
+    font-weight: bold;
+    color: goldenrod;
+}
+footer{
+	font-family: geosanslight-nmsregular;
+	font-size: 4em;
+	letter-spacing: 0.2em;
+}
