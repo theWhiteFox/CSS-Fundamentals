@@ -1,11 +1,9 @@
 /* Stephen, 23-Mar-2015, 16:56:20 */
+
 @font-face {
     font-family: 'geosanslight-nmsregular';
     src: url('http://www.no-mans-sky.com/elk/wp-content/themes/nomanssky/fonts/geonms-webfont.eot');
-    src: url('http://www.no-mans-sky.com/elk/wp-content/themes/nomanssky/fonts/geonms-webfont.eot?#iefix') format('embedded-opentype'),
-         url('http://www.no-mans-sky.com/elk/wp-content/themes/nomanssky/fonts/geonms-webfont.woff') format('woff'),
-         url('http://www.no-mans-sky.com/elk/wp-content/themes/nomanssky/fonts/geonms-webfont.ttf') format('truetype'),
-         url('http://www.no-mans-sky.com/elk/wp-content/themes/nomanssky/fonts/geonms-webfont.svg#geosanslight-nmsregular') format('svg');
+    src: url('http://www.no-mans-sky.com/elk/wp-content/themes/nomanssky/fonts/geonms-webfont.eot?#iefix') format('embedded-opentype'), url('http://www.no-mans-sky.com/elk/wp-content/themes/nomanssky/fonts/geonms-webfont.woff') format('woff'), url('http://www.no-mans-sky.com/elk/wp-content/themes/nomanssky/fonts/geonms-webfont.ttf') format('truetype'), url('http://www.no-mans-sky.com/elk/wp-content/themes/nomanssky/fonts/geonms-webfont.svg#geosanslight-nmsregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -46,33 +44,35 @@ p {
     font-style: italic;
     color: navy;
 }
-
 /*element specific*/
-h2.artist {	
-	color: white;
-	background-color: blue;
-	font-variant: small-caps;
-	font-style: none !important;
-}
-#pageHeader{
-	background-color: gray;
-	color:white;
-	padding:15px;
+
+h2.artist {
+    color: white;
+    background-color: blue;
+    font-variant: small-caps;
+    font-style: none !important;
 }
 
+#pageHeader {
+    background-color: gray;
+    color: white;
+    padding: 15px;
+}
 /*element specific*/
-aside#featuredArtist{
-	background-color: tan;
-	padding:15px;
-	width:300px;
 
+aside#featuredArtist {
+    background-color: tan;
+    padding: 15px;
+    width: 300px;
 }
+
 .date {
     font-weight: bold;
     color: goldenrod;
 }
-footer{
-	font-family: geosanslight-nmsregular;
-	font-size: 4em;
-	letter-spacing: 0.2em;
+
+footer {
+    font-family: geosanslight-nmsregular;
+    font-size: 4em;
+    letter-spacing: 0.2em;
 }
